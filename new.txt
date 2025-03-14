@@ -1,1 +1,42 @@
 I am from dev branch. and its an 1st time.
+
+
+ 327  git statis
+  328  git status
+  329  git add .
+  330  git status
+  331  git commit -m "try3"
+  332  cd .git
+  333  cd hooks
+  334  cd pre-commit
+  335  vi pre-commit
+  336  cd ..
+  337  git status
+  338  git commit -m "add
+
+  339  git commit -m "add"
+  340  cd .git
+  341  cd hooks
+  342  vi pre-commit
+  343  cd ..
+  344  git commit -m "add"
+  345  git status
+  346  cd .git
+  347  cd hooks
+  348  vi pre-commit
+  349  cd ..
+  350  git commit -m "f"
+  351  history
+
+
+
+#files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
+#flake8 files
+
+#git diff --cached --name-only --diff-filter=ACM | grep '\.py$' | xargs flake8
+
+if git grep -q "password\|secrete_key\|API_key" $(git diff --cached --name-only); then
+        echo "Check the sensitive info first"
+        exit 1
+fi
+~                                                                                                                                    ~                                                                                                                                    ~     
